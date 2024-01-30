@@ -1,0 +1,3584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="OptiX-Samples"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\CMake\;CMake Files\CMake\FindCUDA\;CMake Files\optixBuffersOfBuffers\;CMake Files\optixCallablePrograms\;CMake Files\optixCompressedTexture\;CMake Files\optixConsole\;CMake Files\optixDemandLoadBuffer\;CMake Files\optixDemandLoadTexture\;CMake Files\optixDenoiser\;CMake Files\optixDeviceQuery\;CMake Files\optixDynamicGeometry\;CMake Files\optixGeometryTriangles\;CMake Files\optixHello\;CMake Files\optixInstancing\;CMake Files\optixMDLDisplacement\;CMake Files\optixMDLExpressions\;CMake Files\optixMDLSphere\;CMake Files\optixMeshViewer\;CMake Files\optixMotionBlur\;CMake Files\optixParticles\;CMake Files\optixPathTracer\;CMake Files\optixPathTracerTiled\;CMake Files\optixPrimitiveIndexOffsets\;CMake Files\optixRaycasting\;CMake Files\optixSphere\;CMake Files\optixSpherePP\;CMake Files\optixTextureSampler\;CMake Files\optixTutorial\;CMake Files\optixWhitted\;CMake Files\primeInstancing\;CMake Files\primeMasking\;CMake Files\primeMultiBuffering\;CMake Files\primeMultiGpu\;CMake Files\primeSimple\;CMake Files\primeSimplePP\;CMake Files\opal\;CMake Files\sutil\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="optixBuffersOfBuffers">
+				<Option output="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin/optixBuffersOfBuffers" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/joewebb/OptiX2/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/sutil"/>
+					<Add directory="/home/joewebb/OptiX2/SDK"/>
+					<Add directory="/home/joewebb/OptiX2/include/optixu"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl-sdk/include"/>
+					<Add directory="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixBuffersOfBuffers/Makefile&quot;  VERBOSE=1 optixBuffersOfBuffers"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixBuffersOfBuffers/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixBuffersOfBuffers/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixBuffersOfBuffers/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="optixBuffersOfBuffers/fast">
+				<Option output="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin/optixBuffersOfBuffers" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/joewebb/OptiX2/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/sutil"/>
+					<Add directory="/home/joewebb/OptiX2/SDK"/>
+					<Add directory="/home/joewebb/OptiX2/include/optixu"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl-sdk/include"/>
+					<Add directory="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixBuffersOfBuffers/Makefile&quot;  VERBOSE=1 optixBuffersOfBuffers/fast"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixBuffersOfBuffers/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixBuffersOfBuffers/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixBuffersOfBuffers/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="optixCallablePrograms">
+				<Option output="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin/optixCallablePrograms" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/joewebb/OptiX2/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/sutil"/>
+					<Add directory="/home/joewebb/OptiX2/SDK"/>
+					<Add directory="/home/joewebb/OptiX2/include/optixu"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl-sdk/include"/>
+					<Add directory="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixCallablePrograms/Makefile&quot;  VERBOSE=1 optixCallablePrograms"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixCallablePrograms/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixCallablePrograms/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixCallablePrograms/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="optixCallablePrograms/fast">
+				<Option output="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin/optixCallablePrograms" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/joewebb/OptiX2/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/sutil"/>
+					<Add directory="/home/joewebb/OptiX2/SDK"/>
+					<Add directory="/home/joewebb/OptiX2/include/optixu"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl-sdk/include"/>
+					<Add directory="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixCallablePrograms/Makefile&quot;  VERBOSE=1 optixCallablePrograms/fast"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixCallablePrograms/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixCallablePrograms/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixCallablePrograms/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="optixCompressedTexture">
+				<Option output="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin/optixCompressedTexture" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/joewebb/OptiX2/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/sutil"/>
+					<Add directory="/home/joewebb/OptiX2/SDK"/>
+					<Add directory="/home/joewebb/OptiX2/include/optixu"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl-sdk/include"/>
+					<Add directory="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixCompressedTexture/Makefile&quot;  VERBOSE=1 optixCompressedTexture"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixCompressedTexture/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixCompressedTexture/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixCompressedTexture/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="optixCompressedTexture/fast">
+				<Option output="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin/optixCompressedTexture" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/joewebb/OptiX2/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/sutil"/>
+					<Add directory="/home/joewebb/OptiX2/SDK"/>
+					<Add directory="/home/joewebb/OptiX2/include/optixu"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl-sdk/include"/>
+					<Add directory="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixCompressedTexture/Makefile&quot;  VERBOSE=1 optixCompressedTexture/fast"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixCompressedTexture/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixCompressedTexture/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixCompressedTexture/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="optixConsole">
+				<Option output="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin/optixConsole" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/joewebb/OptiX2/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/sutil"/>
+					<Add directory="/home/joewebb/OptiX2/SDK"/>
+					<Add directory="/home/joewebb/OptiX2/include/optixu"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl-sdk/include"/>
+					<Add directory="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixConsole/Makefile&quot;  VERBOSE=1 optixConsole"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixConsole/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixConsole/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixConsole/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="optixConsole/fast">
+				<Option output="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin/optixConsole" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/joewebb/OptiX2/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/sutil"/>
+					<Add directory="/home/joewebb/OptiX2/SDK"/>
+					<Add directory="/home/joewebb/OptiX2/include/optixu"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl-sdk/include"/>
+					<Add directory="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixConsole/Makefile&quot;  VERBOSE=1 optixConsole/fast"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixConsole/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixConsole/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixConsole/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="optixDemandLoadBuffer">
+				<Option output="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin/optixDemandLoadBuffer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLUT_FOUND"/>
+					<Add option="-DGLUT_NO_LIB_PRAGMA"/>
+					<Add directory="/home/joewebb/OptiX2/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/sutil"/>
+					<Add directory="/home/joewebb/OptiX2/SDK"/>
+					<Add directory="/home/joewebb/OptiX2/include/optixu"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl-sdk/include"/>
+					<Add directory="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixDemandLoadBuffer/Makefile&quot;  VERBOSE=1 optixDemandLoadBuffer"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixDemandLoadBuffer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixDemandLoadBuffer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixDemandLoadBuffer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="optixDemandLoadBuffer/fast">
+				<Option output="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin/optixDemandLoadBuffer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLUT_FOUND"/>
+					<Add option="-DGLUT_NO_LIB_PRAGMA"/>
+					<Add directory="/home/joewebb/OptiX2/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/sutil"/>
+					<Add directory="/home/joewebb/OptiX2/SDK"/>
+					<Add directory="/home/joewebb/OptiX2/include/optixu"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl-sdk/include"/>
+					<Add directory="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixDemandLoadBuffer/Makefile&quot;  VERBOSE=1 optixDemandLoadBuffer/fast"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixDemandLoadBuffer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixDemandLoadBuffer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixDemandLoadBuffer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="optixDemandLoadTexture">
+				<Option output="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin/optixDemandLoadTexture" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLUT_FOUND"/>
+					<Add option="-DGLUT_NO_LIB_PRAGMA"/>
+					<Add directory="/home/joewebb/OptiX2/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/sutil"/>
+					<Add directory="/home/joewebb/OptiX2/SDK"/>
+					<Add directory="/home/joewebb/OptiX2/include/optixu"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl-sdk/include"/>
+					<Add directory="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixDemandLoadTexture/Makefile&quot;  VERBOSE=1 optixDemandLoadTexture"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixDemandLoadTexture/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixDemandLoadTexture/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixDemandLoadTexture/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="optixDemandLoadTexture/fast">
+				<Option output="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin/optixDemandLoadTexture" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLUT_FOUND"/>
+					<Add option="-DGLUT_NO_LIB_PRAGMA"/>
+					<Add directory="/home/joewebb/OptiX2/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/sutil"/>
+					<Add directory="/home/joewebb/OptiX2/SDK"/>
+					<Add directory="/home/joewebb/OptiX2/include/optixu"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl-sdk/include"/>
+					<Add directory="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixDemandLoadTexture/Makefile&quot;  VERBOSE=1 optixDemandLoadTexture/fast"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixDemandLoadTexture/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixDemandLoadTexture/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixDemandLoadTexture/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="optixDenoiser">
+				<Option output="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin/optixDenoiser" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLUT_FOUND"/>
+					<Add option="-DGLUT_NO_LIB_PRAGMA"/>
+					<Add directory="/home/joewebb/OptiX2/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/sutil"/>
+					<Add directory="/home/joewebb/OptiX2/SDK"/>
+					<Add directory="/home/joewebb/OptiX2/include/optixu"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl-sdk/include"/>
+					<Add directory="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixDenoiser/Makefile&quot;  VERBOSE=1 optixDenoiser"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixDenoiser/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixDenoiser/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixDenoiser/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="optixDenoiser/fast">
+				<Option output="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin/optixDenoiser" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLUT_FOUND"/>
+					<Add option="-DGLUT_NO_LIB_PRAGMA"/>
+					<Add directory="/home/joewebb/OptiX2/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/sutil"/>
+					<Add directory="/home/joewebb/OptiX2/SDK"/>
+					<Add directory="/home/joewebb/OptiX2/include/optixu"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl-sdk/include"/>
+					<Add directory="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixDenoiser/Makefile&quot;  VERBOSE=1 optixDenoiser/fast"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixDenoiser/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixDenoiser/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixDenoiser/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="optixDeviceQuery">
+				<Option output="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin/optixDeviceQuery" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/joewebb/OptiX2/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/sutil"/>
+					<Add directory="/home/joewebb/OptiX2/SDK"/>
+					<Add directory="/home/joewebb/OptiX2/include/optixu"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl-sdk/include"/>
+					<Add directory="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixDeviceQuery/Makefile&quot;  VERBOSE=1 optixDeviceQuery"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixDeviceQuery/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixDeviceQuery/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixDeviceQuery/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="optixDeviceQuery/fast">
+				<Option output="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin/optixDeviceQuery" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/joewebb/OptiX2/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/sutil"/>
+					<Add directory="/home/joewebb/OptiX2/SDK"/>
+					<Add directory="/home/joewebb/OptiX2/include/optixu"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl-sdk/include"/>
+					<Add directory="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixDeviceQuery/Makefile&quot;  VERBOSE=1 optixDeviceQuery/fast"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixDeviceQuery/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixDeviceQuery/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixDeviceQuery/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="optixDynamicGeometry">
+				<Option output="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin/optixDynamicGeometry" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLUT_FOUND"/>
+					<Add option="-DGLUT_NO_LIB_PRAGMA"/>
+					<Add directory="/home/joewebb/OptiX2/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/sutil"/>
+					<Add directory="/home/joewebb/OptiX2/SDK"/>
+					<Add directory="/home/joewebb/OptiX2/include/optixu"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl-sdk/include"/>
+					<Add directory="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixDynamicGeometry/Makefile&quot;  VERBOSE=1 optixDynamicGeometry"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixDynamicGeometry/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixDynamicGeometry/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixDynamicGeometry/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="optixDynamicGeometry/fast">
+				<Option output="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin/optixDynamicGeometry" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLUT_FOUND"/>
+					<Add option="-DGLUT_NO_LIB_PRAGMA"/>
+					<Add directory="/home/joewebb/OptiX2/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/sutil"/>
+					<Add directory="/home/joewebb/OptiX2/SDK"/>
+					<Add directory="/home/joewebb/OptiX2/include/optixu"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl-sdk/include"/>
+					<Add directory="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixDynamicGeometry/Makefile&quot;  VERBOSE=1 optixDynamicGeometry/fast"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixDynamicGeometry/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixDynamicGeometry/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixDynamicGeometry/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="optixGeometryTriangles">
+				<Option output="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin/optixGeometryTriangles" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLUT_FOUND"/>
+					<Add option="-DGLUT_NO_LIB_PRAGMA"/>
+					<Add directory="/home/joewebb/OptiX2/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/sutil"/>
+					<Add directory="/home/joewebb/OptiX2/SDK"/>
+					<Add directory="/home/joewebb/OptiX2/include/optixu"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl-sdk/include"/>
+					<Add directory="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixGeometryTriangles/Makefile&quot;  VERBOSE=1 optixGeometryTriangles"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixGeometryTriangles/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixGeometryTriangles/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixGeometryTriangles/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="optixGeometryTriangles/fast">
+				<Option output="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin/optixGeometryTriangles" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLUT_FOUND"/>
+					<Add option="-DGLUT_NO_LIB_PRAGMA"/>
+					<Add directory="/home/joewebb/OptiX2/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/sutil"/>
+					<Add directory="/home/joewebb/OptiX2/SDK"/>
+					<Add directory="/home/joewebb/OptiX2/include/optixu"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl-sdk/include"/>
+					<Add directory="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixGeometryTriangles/Makefile&quot;  VERBOSE=1 optixGeometryTriangles/fast"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixGeometryTriangles/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixGeometryTriangles/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixGeometryTriangles/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="optixHello">
+				<Option output="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin/optixHello" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/joewebb/OptiX2/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/sutil"/>
+					<Add directory="/home/joewebb/OptiX2/SDK"/>
+					<Add directory="/home/joewebb/OptiX2/include/optixu"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl-sdk/include"/>
+					<Add directory="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixHello/Makefile&quot;  VERBOSE=1 optixHello"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixHello/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixHello/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixHello/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="optixHello/fast">
+				<Option output="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin/optixHello" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/joewebb/OptiX2/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/sutil"/>
+					<Add directory="/home/joewebb/OptiX2/SDK"/>
+					<Add directory="/home/joewebb/OptiX2/include/optixu"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl-sdk/include"/>
+					<Add directory="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixHello/Makefile&quot;  VERBOSE=1 optixHello/fast"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixHello/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixHello/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixHello/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="optixInstancing">
+				<Option output="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin/optixInstancing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/joewebb/OptiX2/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/sutil"/>
+					<Add directory="/home/joewebb/OptiX2/SDK"/>
+					<Add directory="/home/joewebb/OptiX2/include/optixu"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl-sdk/include"/>
+					<Add directory="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixInstancing/Makefile&quot;  VERBOSE=1 optixInstancing"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixInstancing/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixInstancing/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixInstancing/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="optixInstancing/fast">
+				<Option output="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin/optixInstancing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/joewebb/OptiX2/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/sutil"/>
+					<Add directory="/home/joewebb/OptiX2/SDK"/>
+					<Add directory="/home/joewebb/OptiX2/include/optixu"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl-sdk/include"/>
+					<Add directory="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixInstancing/Makefile&quot;  VERBOSE=1 optixInstancing/fast"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixInstancing/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixInstancing/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixInstancing/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="optixMDLDisplacement">
+				<Option output="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin/optixMDLDisplacement" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLUT_FOUND"/>
+					<Add option="-DGLUT_NO_LIB_PRAGMA"/>
+					<Add directory="/home/joewebb/OptiX2/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/sutil"/>
+					<Add directory="/home/joewebb/OptiX2/SDK"/>
+					<Add directory="/home/joewebb/OptiX2/include/optixu"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl-sdk/include"/>
+					<Add directory="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl_wrapper/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixMDLDisplacement/Makefile&quot;  VERBOSE=1 optixMDLDisplacement"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixMDLDisplacement/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixMDLDisplacement/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixMDLDisplacement/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="optixMDLDisplacement/fast">
+				<Option output="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin/optixMDLDisplacement" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLUT_FOUND"/>
+					<Add option="-DGLUT_NO_LIB_PRAGMA"/>
+					<Add directory="/home/joewebb/OptiX2/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/sutil"/>
+					<Add directory="/home/joewebb/OptiX2/SDK"/>
+					<Add directory="/home/joewebb/OptiX2/include/optixu"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl-sdk/include"/>
+					<Add directory="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl_wrapper/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixMDLDisplacement/Makefile&quot;  VERBOSE=1 optixMDLDisplacement/fast"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixMDLDisplacement/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixMDLDisplacement/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixMDLDisplacement/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="optixMDLExpressions">
+				<Option output="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin/optixMDLExpressions" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLUT_FOUND"/>
+					<Add option="-DGLUT_NO_LIB_PRAGMA"/>
+					<Add directory="/home/joewebb/OptiX2/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/sutil"/>
+					<Add directory="/home/joewebb/OptiX2/SDK"/>
+					<Add directory="/home/joewebb/OptiX2/include/optixu"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl-sdk/include"/>
+					<Add directory="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl_wrapper/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixMDLExpressions/Makefile&quot;  VERBOSE=1 optixMDLExpressions"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixMDLExpressions/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixMDLExpressions/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixMDLExpressions/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="optixMDLExpressions/fast">
+				<Option output="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin/optixMDLExpressions" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLUT_FOUND"/>
+					<Add option="-DGLUT_NO_LIB_PRAGMA"/>
+					<Add directory="/home/joewebb/OptiX2/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/sutil"/>
+					<Add directory="/home/joewebb/OptiX2/SDK"/>
+					<Add directory="/home/joewebb/OptiX2/include/optixu"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl-sdk/include"/>
+					<Add directory="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl_wrapper/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixMDLExpressions/Makefile&quot;  VERBOSE=1 optixMDLExpressions/fast"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixMDLExpressions/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixMDLExpressions/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixMDLExpressions/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="optixMDLSphere">
+				<Option output="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin/optixMDLSphere" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTARGET_NAME=&quot;optixMDLSphere&quot;"/>
+					<Add option="-DGLUT_FOUND"/>
+					<Add option="-DGLUT_NO_LIB_PRAGMA"/>
+					<Add directory="/home/joewebb/OptiX2/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/sutil"/>
+					<Add directory="/home/joewebb/OptiX2/SDK"/>
+					<Add directory="/home/joewebb/OptiX2/include/optixu"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl-sdk/include"/>
+					<Add directory="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl_wrapper/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixMDLSphere/Makefile&quot;  VERBOSE=1 optixMDLSphere"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixMDLSphere/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixMDLSphere/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixMDLSphere/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="optixMDLSphere/fast">
+				<Option output="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin/optixMDLSphere" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTARGET_NAME=&quot;optixMDLSphere&quot;"/>
+					<Add option="-DGLUT_FOUND"/>
+					<Add option="-DGLUT_NO_LIB_PRAGMA"/>
+					<Add directory="/home/joewebb/OptiX2/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/sutil"/>
+					<Add directory="/home/joewebb/OptiX2/SDK"/>
+					<Add directory="/home/joewebb/OptiX2/include/optixu"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl-sdk/include"/>
+					<Add directory="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl_wrapper/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixMDLSphere/Makefile&quot;  VERBOSE=1 optixMDLSphere/fast"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixMDLSphere/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixMDLSphere/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixMDLSphere/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="optixMeshViewer">
+				<Option output="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin/optixMeshViewer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLUT_FOUND"/>
+					<Add option="-DGLUT_NO_LIB_PRAGMA"/>
+					<Add directory="/home/joewebb/OptiX2/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/sutil"/>
+					<Add directory="/home/joewebb/OptiX2/SDK"/>
+					<Add directory="/home/joewebb/OptiX2/include/optixu"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl-sdk/include"/>
+					<Add directory="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixMeshViewer/Makefile&quot;  VERBOSE=1 optixMeshViewer"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixMeshViewer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixMeshViewer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixMeshViewer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="optixMeshViewer/fast">
+				<Option output="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin/optixMeshViewer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLUT_FOUND"/>
+					<Add option="-DGLUT_NO_LIB_PRAGMA"/>
+					<Add directory="/home/joewebb/OptiX2/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/sutil"/>
+					<Add directory="/home/joewebb/OptiX2/SDK"/>
+					<Add directory="/home/joewebb/OptiX2/include/optixu"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl-sdk/include"/>
+					<Add directory="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixMeshViewer/Makefile&quot;  VERBOSE=1 optixMeshViewer/fast"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixMeshViewer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixMeshViewer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixMeshViewer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="optixMotionBlur">
+				<Option output="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin/optixMotionBlur" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLUT_FOUND"/>
+					<Add option="-DGLUT_NO_LIB_PRAGMA"/>
+					<Add directory="/home/joewebb/OptiX2/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/sutil"/>
+					<Add directory="/home/joewebb/OptiX2/SDK"/>
+					<Add directory="/home/joewebb/OptiX2/include/optixu"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl-sdk/include"/>
+					<Add directory="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixMotionBlur/Makefile&quot;  VERBOSE=1 optixMotionBlur"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixMotionBlur/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixMotionBlur/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixMotionBlur/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="optixMotionBlur/fast">
+				<Option output="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin/optixMotionBlur" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLUT_FOUND"/>
+					<Add option="-DGLUT_NO_LIB_PRAGMA"/>
+					<Add directory="/home/joewebb/OptiX2/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/sutil"/>
+					<Add directory="/home/joewebb/OptiX2/SDK"/>
+					<Add directory="/home/joewebb/OptiX2/include/optixu"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl-sdk/include"/>
+					<Add directory="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixMotionBlur/Makefile&quot;  VERBOSE=1 optixMotionBlur/fast"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixMotionBlur/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixMotionBlur/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixMotionBlur/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="optixParticles">
+				<Option output="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin/optixParticles" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLUT_FOUND"/>
+					<Add option="-DGLUT_NO_LIB_PRAGMA"/>
+					<Add directory="/home/joewebb/OptiX2/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/sutil"/>
+					<Add directory="/home/joewebb/OptiX2/SDK"/>
+					<Add directory="/home/joewebb/OptiX2/include/optixu"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl-sdk/include"/>
+					<Add directory="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixParticles/Makefile&quot;  VERBOSE=1 optixParticles"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixParticles/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixParticles/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixParticles/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="optixParticles/fast">
+				<Option output="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin/optixParticles" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLUT_FOUND"/>
+					<Add option="-DGLUT_NO_LIB_PRAGMA"/>
+					<Add directory="/home/joewebb/OptiX2/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/sutil"/>
+					<Add directory="/home/joewebb/OptiX2/SDK"/>
+					<Add directory="/home/joewebb/OptiX2/include/optixu"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl-sdk/include"/>
+					<Add directory="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixParticles/Makefile&quot;  VERBOSE=1 optixParticles/fast"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixParticles/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixParticles/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixParticles/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="optixPathTracer">
+				<Option output="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin/optixPathTracer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLUT_FOUND"/>
+					<Add option="-DGLUT_NO_LIB_PRAGMA"/>
+					<Add directory="/home/joewebb/OptiX2/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/sutil"/>
+					<Add directory="/home/joewebb/OptiX2/SDK"/>
+					<Add directory="/home/joewebb/OptiX2/include/optixu"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl-sdk/include"/>
+					<Add directory="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixPathTracer/Makefile&quot;  VERBOSE=1 optixPathTracer"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixPathTracer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixPathTracer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixPathTracer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="optixPathTracer/fast">
+				<Option output="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin/optixPathTracer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLUT_FOUND"/>
+					<Add option="-DGLUT_NO_LIB_PRAGMA"/>
+					<Add directory="/home/joewebb/OptiX2/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/sutil"/>
+					<Add directory="/home/joewebb/OptiX2/SDK"/>
+					<Add directory="/home/joewebb/OptiX2/include/optixu"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl-sdk/include"/>
+					<Add directory="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixPathTracer/Makefile&quot;  VERBOSE=1 optixPathTracer/fast"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixPathTracer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixPathTracer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixPathTracer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="optixPathTracerTiled">
+				<Option output="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin/optixPathTracerTiled" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLUT_FOUND"/>
+					<Add option="-DGLUT_NO_LIB_PRAGMA"/>
+					<Add directory="/home/joewebb/OptiX2/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/sutil"/>
+					<Add directory="/home/joewebb/OptiX2/SDK"/>
+					<Add directory="/home/joewebb/OptiX2/include/optixu"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl-sdk/include"/>
+					<Add directory="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixPathTracerTiled/Makefile&quot;  VERBOSE=1 optixPathTracerTiled"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixPathTracerTiled/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixPathTracerTiled/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixPathTracerTiled/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="optixPathTracerTiled/fast">
+				<Option output="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin/optixPathTracerTiled" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLUT_FOUND"/>
+					<Add option="-DGLUT_NO_LIB_PRAGMA"/>
+					<Add directory="/home/joewebb/OptiX2/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/sutil"/>
+					<Add directory="/home/joewebb/OptiX2/SDK"/>
+					<Add directory="/home/joewebb/OptiX2/include/optixu"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl-sdk/include"/>
+					<Add directory="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixPathTracerTiled/Makefile&quot;  VERBOSE=1 optixPathTracerTiled/fast"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixPathTracerTiled/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixPathTracerTiled/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixPathTracerTiled/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="optixPrimitiveIndexOffsets">
+				<Option output="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin/optixPrimitiveIndexOffsets" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/joewebb/OptiX2/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/sutil"/>
+					<Add directory="/home/joewebb/OptiX2/SDK"/>
+					<Add directory="/home/joewebb/OptiX2/include/optixu"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl-sdk/include"/>
+					<Add directory="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixPrimitiveIndexOffsets/Makefile&quot;  VERBOSE=1 optixPrimitiveIndexOffsets"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixPrimitiveIndexOffsets/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixPrimitiveIndexOffsets/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixPrimitiveIndexOffsets/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="optixPrimitiveIndexOffsets/fast">
+				<Option output="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin/optixPrimitiveIndexOffsets" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/joewebb/OptiX2/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/sutil"/>
+					<Add directory="/home/joewebb/OptiX2/SDK"/>
+					<Add directory="/home/joewebb/OptiX2/include/optixu"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl-sdk/include"/>
+					<Add directory="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixPrimitiveIndexOffsets/Makefile&quot;  VERBOSE=1 optixPrimitiveIndexOffsets/fast"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixPrimitiveIndexOffsets/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixPrimitiveIndexOffsets/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixPrimitiveIndexOffsets/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="optixRaycasting">
+				<Option output="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin/optixRaycasting" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/joewebb/OptiX2/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/sutil"/>
+					<Add directory="/home/joewebb/OptiX2/SDK"/>
+					<Add directory="/home/joewebb/OptiX2/include/optixu"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl-sdk/include"/>
+					<Add directory="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixRaycasting/Makefile&quot;  VERBOSE=1 optixRaycasting"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixRaycasting/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixRaycasting/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixRaycasting/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="optixRaycasting/fast">
+				<Option output="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin/optixRaycasting" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/joewebb/OptiX2/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/sutil"/>
+					<Add directory="/home/joewebb/OptiX2/SDK"/>
+					<Add directory="/home/joewebb/OptiX2/include/optixu"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl-sdk/include"/>
+					<Add directory="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixRaycasting/Makefile&quot;  VERBOSE=1 optixRaycasting/fast"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixRaycasting/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixRaycasting/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixRaycasting/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="optixSphere">
+				<Option output="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin/optixSphere" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/joewebb/OptiX2/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/sutil"/>
+					<Add directory="/home/joewebb/OptiX2/SDK"/>
+					<Add directory="/home/joewebb/OptiX2/include/optixu"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl-sdk/include"/>
+					<Add directory="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixSphere/Makefile&quot;  VERBOSE=1 optixSphere"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixSphere/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixSphere/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixSphere/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="optixSphere/fast">
+				<Option output="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin/optixSphere" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/joewebb/OptiX2/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/sutil"/>
+					<Add directory="/home/joewebb/OptiX2/SDK"/>
+					<Add directory="/home/joewebb/OptiX2/include/optixu"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl-sdk/include"/>
+					<Add directory="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixSphere/Makefile&quot;  VERBOSE=1 optixSphere/fast"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixSphere/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixSphere/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixSphere/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="optixSpherePP">
+				<Option output="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin/optixSpherePP" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/joewebb/OptiX2/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/sutil"/>
+					<Add directory="/home/joewebb/OptiX2/SDK"/>
+					<Add directory="/home/joewebb/OptiX2/include/optixu"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl-sdk/include"/>
+					<Add directory="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixSpherePP/Makefile&quot;  VERBOSE=1 optixSpherePP"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixSpherePP/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixSpherePP/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixSpherePP/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="optixSpherePP/fast">
+				<Option output="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin/optixSpherePP" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/joewebb/OptiX2/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/sutil"/>
+					<Add directory="/home/joewebb/OptiX2/SDK"/>
+					<Add directory="/home/joewebb/OptiX2/include/optixu"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl-sdk/include"/>
+					<Add directory="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixSpherePP/Makefile&quot;  VERBOSE=1 optixSpherePP/fast"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixSpherePP/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixSpherePP/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixSpherePP/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="optixTextureSampler">
+				<Option output="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin/optixTextureSampler" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/joewebb/OptiX2/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/sutil"/>
+					<Add directory="/home/joewebb/OptiX2/SDK"/>
+					<Add directory="/home/joewebb/OptiX2/include/optixu"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl-sdk/include"/>
+					<Add directory="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixTextureSampler/Makefile&quot;  VERBOSE=1 optixTextureSampler"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixTextureSampler/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixTextureSampler/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixTextureSampler/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="optixTextureSampler/fast">
+				<Option output="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin/optixTextureSampler" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/joewebb/OptiX2/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/sutil"/>
+					<Add directory="/home/joewebb/OptiX2/SDK"/>
+					<Add directory="/home/joewebb/OptiX2/include/optixu"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl-sdk/include"/>
+					<Add directory="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixTextureSampler/Makefile&quot;  VERBOSE=1 optixTextureSampler/fast"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixTextureSampler/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixTextureSampler/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixTextureSampler/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="optixTutorial">
+				<Option output="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin/optixTutorial" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLUT_FOUND"/>
+					<Add option="-DGLUT_NO_LIB_PRAGMA"/>
+					<Add directory="/home/joewebb/OptiX2/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/sutil"/>
+					<Add directory="/home/joewebb/OptiX2/SDK"/>
+					<Add directory="/home/joewebb/OptiX2/include/optixu"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl-sdk/include"/>
+					<Add directory="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixTutorial/Makefile&quot;  VERBOSE=1 optixTutorial"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixTutorial/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixTutorial/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixTutorial/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="optixTutorial/fast">
+				<Option output="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin/optixTutorial" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLUT_FOUND"/>
+					<Add option="-DGLUT_NO_LIB_PRAGMA"/>
+					<Add directory="/home/joewebb/OptiX2/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/sutil"/>
+					<Add directory="/home/joewebb/OptiX2/SDK"/>
+					<Add directory="/home/joewebb/OptiX2/include/optixu"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl-sdk/include"/>
+					<Add directory="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixTutorial/Makefile&quot;  VERBOSE=1 optixTutorial/fast"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixTutorial/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixTutorial/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixTutorial/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="optixWhitted">
+				<Option output="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin/optixWhitted" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLUT_FOUND"/>
+					<Add option="-DGLUT_NO_LIB_PRAGMA"/>
+					<Add directory="/home/joewebb/OptiX2/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/sutil"/>
+					<Add directory="/home/joewebb/OptiX2/SDK"/>
+					<Add directory="/home/joewebb/OptiX2/include/optixu"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl-sdk/include"/>
+					<Add directory="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixWhitted/Makefile&quot;  VERBOSE=1 optixWhitted"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixWhitted/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixWhitted/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixWhitted/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="optixWhitted/fast">
+				<Option output="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin/optixWhitted" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLUT_FOUND"/>
+					<Add option="-DGLUT_NO_LIB_PRAGMA"/>
+					<Add directory="/home/joewebb/OptiX2/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/sutil"/>
+					<Add directory="/home/joewebb/OptiX2/SDK"/>
+					<Add directory="/home/joewebb/OptiX2/include/optixu"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl-sdk/include"/>
+					<Add directory="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixWhitted/Makefile&quot;  VERBOSE=1 optixWhitted/fast"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixWhitted/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixWhitted/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/optixWhitted/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="primeInstancing">
+				<Option output="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin/primeInstancing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/joewebb/OptiX2/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/sutil"/>
+					<Add directory="/home/joewebb/OptiX2/SDK"/>
+					<Add directory="/home/joewebb/OptiX2/include/optixu"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl-sdk/include"/>
+					<Add directory="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/primeInstancing/../primeSimple"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/primeInstancing/Makefile&quot;  VERBOSE=1 primeInstancing"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/primeInstancing/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/primeInstancing/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/primeInstancing/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="primeInstancing/fast">
+				<Option output="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin/primeInstancing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/joewebb/OptiX2/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/sutil"/>
+					<Add directory="/home/joewebb/OptiX2/SDK"/>
+					<Add directory="/home/joewebb/OptiX2/include/optixu"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl-sdk/include"/>
+					<Add directory="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/primeInstancing/../primeSimple"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/primeInstancing/Makefile&quot;  VERBOSE=1 primeInstancing/fast"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/primeInstancing/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/primeInstancing/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/primeInstancing/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="primeMasking">
+				<Option output="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin/primeMasking" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/joewebb/OptiX2/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/sutil"/>
+					<Add directory="/home/joewebb/OptiX2/SDK"/>
+					<Add directory="/home/joewebb/OptiX2/include/optixu"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl-sdk/include"/>
+					<Add directory="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/primeMasking/../primeSimple"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/primeMasking/Makefile&quot;  VERBOSE=1 primeMasking"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/primeMasking/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/primeMasking/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/primeMasking/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="primeMasking/fast">
+				<Option output="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin/primeMasking" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/joewebb/OptiX2/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/sutil"/>
+					<Add directory="/home/joewebb/OptiX2/SDK"/>
+					<Add directory="/home/joewebb/OptiX2/include/optixu"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl-sdk/include"/>
+					<Add directory="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/primeMasking/../primeSimple"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/primeMasking/Makefile&quot;  VERBOSE=1 primeMasking/fast"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/primeMasking/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/primeMasking/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/primeMasking/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="primeMultiBuffering">
+				<Option output="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin/primeMultiBuffering" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/joewebb/OptiX2/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/sutil"/>
+					<Add directory="/home/joewebb/OptiX2/SDK"/>
+					<Add directory="/home/joewebb/OptiX2/include/optixu"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl-sdk/include"/>
+					<Add directory="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/primeMultiBuffering/../primeSimple"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/primeMultiBuffering/Makefile&quot;  VERBOSE=1 primeMultiBuffering"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/primeMultiBuffering/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/primeMultiBuffering/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/primeMultiBuffering/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="primeMultiBuffering/fast">
+				<Option output="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin/primeMultiBuffering" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/joewebb/OptiX2/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/sutil"/>
+					<Add directory="/home/joewebb/OptiX2/SDK"/>
+					<Add directory="/home/joewebb/OptiX2/include/optixu"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl-sdk/include"/>
+					<Add directory="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/primeMultiBuffering/../primeSimple"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/primeMultiBuffering/Makefile&quot;  VERBOSE=1 primeMultiBuffering/fast"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/primeMultiBuffering/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/primeMultiBuffering/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/primeMultiBuffering/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="primeMultiGpu">
+				<Option output="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin/primeMultiGpu" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/joewebb/OptiX2/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/sutil"/>
+					<Add directory="/home/joewebb/OptiX2/SDK"/>
+					<Add directory="/home/joewebb/OptiX2/include/optixu"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl-sdk/include"/>
+					<Add directory="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/primeMultiGpu/../primeSimple"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/primeMultiGpu/Makefile&quot;  VERBOSE=1 primeMultiGpu"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/primeMultiGpu/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/primeMultiGpu/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/primeMultiGpu/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="primeMultiGpu/fast">
+				<Option output="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin/primeMultiGpu" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/joewebb/OptiX2/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/sutil"/>
+					<Add directory="/home/joewebb/OptiX2/SDK"/>
+					<Add directory="/home/joewebb/OptiX2/include/optixu"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl-sdk/include"/>
+					<Add directory="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/primeMultiGpu/../primeSimple"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/primeMultiGpu/Makefile&quot;  VERBOSE=1 primeMultiGpu/fast"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/primeMultiGpu/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/primeMultiGpu/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/primeMultiGpu/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="primeSimple">
+				<Option output="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin/primeSimple" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/joewebb/OptiX2/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/sutil"/>
+					<Add directory="/home/joewebb/OptiX2/SDK"/>
+					<Add directory="/home/joewebb/OptiX2/include/optixu"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl-sdk/include"/>
+					<Add directory="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/primeSimple/primeSimple"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/primeSimple/Makefile&quot;  VERBOSE=1 primeSimple"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/primeSimple/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/primeSimple/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/primeSimple/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="primeSimple/fast">
+				<Option output="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin/primeSimple" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/joewebb/OptiX2/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/sutil"/>
+					<Add directory="/home/joewebb/OptiX2/SDK"/>
+					<Add directory="/home/joewebb/OptiX2/include/optixu"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl-sdk/include"/>
+					<Add directory="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/primeSimple/primeSimple"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/primeSimple/Makefile&quot;  VERBOSE=1 primeSimple/fast"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/primeSimple/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/primeSimple/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/primeSimple/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="primeSimplePP">
+				<Option output="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin/primeSimplePP" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/joewebb/OptiX2/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/sutil"/>
+					<Add directory="/home/joewebb/OptiX2/SDK"/>
+					<Add directory="/home/joewebb/OptiX2/include/optixu"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl-sdk/include"/>
+					<Add directory="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/primeSimplePP/../primeSimple"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/primeSimplePP/Makefile&quot;  VERBOSE=1 primeSimplePP"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/primeSimplePP/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/primeSimplePP/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/primeSimplePP/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="primeSimplePP/fast">
+				<Option output="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin/primeSimplePP" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/joewebb/OptiX2/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/sutil"/>
+					<Add directory="/home/joewebb/OptiX2/SDK"/>
+					<Add directory="/home/joewebb/OptiX2/include/optixu"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl-sdk/include"/>
+					<Add directory="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/primeSimplePP/../primeSimple"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/primeSimplePP/Makefile&quot;  VERBOSE=1 primeSimplePP/fast"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/primeSimplePP/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/primeSimplePP/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/primeSimplePP/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="opal">
+				<Option output="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin/opal" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/joewebb/OptiX2/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/sutil"/>
+					<Add directory="/home/joewebb/OptiX2/SDK"/>
+					<Add directory="/home/joewebb/OptiX2/include/optixu"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl-sdk/include"/>
+					<Add directory="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/opal/Makefile&quot;  VERBOSE=1 opal"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/opal/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/opal/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/opal/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="opal/fast">
+				<Option output="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin/opal" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/joewebb/OptiX2/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/sutil"/>
+					<Add directory="/home/joewebb/OptiX2/SDK"/>
+					<Add directory="/home/joewebb/OptiX2/include/optixu"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl-sdk/include"/>
+					<Add directory="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/opal/Makefile&quot;  VERBOSE=1 opal/fast"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/opal/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/opal/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/opal/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="opal_s">
+				<Option output="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/lib/libopal_s.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/opal"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/joewebb/OptiX2/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/sutil"/>
+					<Add directory="/home/joewebb/OptiX2/SDK"/>
+					<Add directory="/home/joewebb/OptiX2/include/optixu"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl-sdk/include"/>
+					<Add directory="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/opal/Makefile&quot;  VERBOSE=1 opal_s"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/opal/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/opal/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/opal/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="opal_s/fast">
+				<Option output="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/lib/libopal_s.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/opal"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/joewebb/OptiX2/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/sutil"/>
+					<Add directory="/home/joewebb/OptiX2/SDK"/>
+					<Add directory="/home/joewebb/OptiX2/include/optixu"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl-sdk/include"/>
+					<Add directory="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/opal/Makefile&quot;  VERBOSE=1 opal_s/fast"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/opal/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/opal/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/opal/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sutil_sdk">
+				<Option output="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/lib/libsutil_sdk.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/sutil"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLUT_FOUND"/>
+					<Add option="-DGLUT_NO_LIB_PRAGMA"/>
+					<Add directory="/home/joewebb/OptiX2/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/sutil"/>
+					<Add directory="/home/joewebb/OptiX2/SDK"/>
+					<Add directory="/home/joewebb/OptiX2/include/optixu"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl-sdk/include"/>
+					<Add directory="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/cuda"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/sutil/Makefile&quot;  VERBOSE=1 sutil_sdk"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/sutil/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/sutil/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/sutil/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sutil_sdk/fast">
+				<Option output="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/lib/libsutil_sdk.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/sutil"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLUT_FOUND"/>
+					<Add option="-DGLUT_NO_LIB_PRAGMA"/>
+					<Add directory="/home/joewebb/OptiX2/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/sutil"/>
+					<Add directory="/home/joewebb/OptiX2/SDK"/>
+					<Add directory="/home/joewebb/OptiX2/include/optixu"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/support/mdl-sdk/include"/>
+					<Add directory="/home/joewebb/OptiX2/build-SDK-Desktop-Debug"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/home/joewebb/OptiX2/SDK/cuda"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/sutil/Makefile&quot;  VERBOSE=1 sutil_sdk/fast"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/sutil/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/sutil/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/home/joewebb/OptiX2/build-SDK-Desktop-Debug/sutil/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/joewebb/OptiX2/SDK/cuda/common.h">
+			<Option target="sutil_sdk"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/cuda/helpers.h">
+			<Option target="sutil_sdk"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/cuda/intersection_refinement.h">
+			<Option target="sutil_sdk"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/cuda/phong.cu">
+			<Option target="sutil_sdk"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/cuda/phong.h">
+			<Option target="sutil_sdk"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/cuda/random.h">
+			<Option target="sutil_sdk"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/cuda/triangle_mesh.cu">
+			<Option target="sutil_sdk"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/Common.h">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/Config.h">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/Opal.cpp">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/Opal.h">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/Unity.cpp">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/Unity.h">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/basicSimulation.cpp">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/basicSimulation.h">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/curvedFlatMeshSimulation.cpp">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/curvedFlatMeshSimulation.h">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/curvedMeshSimulation.cpp">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/curvedMeshSimulation.h">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/ext/curvedFlatMeshSimulationDoa.cpp">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/ext/curvedFlatMeshSimulationDoa.h">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/ext/flatSimulationDoa.cpp">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/ext/flatSimulationDoa.h">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/flatSimulation.cpp">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/flatSimulation.h">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/json.hpp">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/loguru.cpp">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/loguru.hpp">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/main.cpp">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/opalSimulation.cpp">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/opalSimulation.h">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/optix/Complex.h">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/optix/basic/generation.cu">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/optix/basic/generationGPU.cu">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/optix/basic/receiver.cu">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/optix/basic/triangle.cu">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/optix/curvedFunctions.h">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/optix/intersect/exception.cu">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/optix/intersect/optixGeometryTriangles.cu">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/optix/intersect/optixGeometryTrianglesCurved.cu">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/optix/intersect/optixTriangle.cu">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/optix/intersect/optixTriangleCurved.cu">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/optix/intersect/sphere.cu">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/optix/log/curved.cu">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/optix/log/generation.cu">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/optix/log/receiver.cu">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/optix/log/triangle.cu">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/optix/penetrationFunctions.h">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/optix/polarization/curved/curved.cu">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/optix/polarization/curved/generation.cu">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/optix/polarization/curved/generationGPU.cu">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/optix/polarization/curved/receiver.cu">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/optix/polarization/curved/triangle.cu">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/optix/polarization/generation.cu">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/optix/polarization/generationGPU.cu">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/optix/polarization/linearPolarizationFunctions.h">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/optix/polarization/rdn/curved.cu">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/optix/polarization/rdn/generation.cu">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/optix/polarization/rdn/generationGPU.cu">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/optix/polarization/rdn/receiver.cu">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/optix/polarization/rdn/triangle.cu">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/optix/polarization/receiver.cu">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/optix/polarization/triangle.cu">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/optix/receiverFunctions.h">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/optix/reflectionFunctions.h">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/optix/traceFunctions.h">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/optix/triangleFunctions.h">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/ptxUtil.cpp">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/ptxUtil.h">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/rayDensityNormalizationSimulation.cpp">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/rayDensityNormalizationSimulation.h">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/raySphere.cpp">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/raySphere.h">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/results.cpp">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/results.h">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/singleDiffraction.cpp">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/singleDiffraction.h">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/tests/antennaGain.cpp">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/tests/antennaGain.h">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/tests/curvature.cpp">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/tests/curvature.h">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/tests/depolarization.cpp">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/tests/depolarization.h">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/tests/diffraction.cpp">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/tests/diffraction.h">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/tests/dudley.cpp">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/tests/dudley.h">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/tests/rdn.cpp">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/tests/rdn.h">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/tests/tests.cpp">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/tests/tests.h">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/tests/tunnels.cpp">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/tests/tunnels.h">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/tests/tunnelsBase.cpp">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/tests/tunnelsBase.h">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/timer.cpp">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/timer.h">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/transmitterManager.cpp">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/transmitterManager.h">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/tutils.cu">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/tutils.h">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/util.cpp">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/util.h">
+			<Option target="opal"/>
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixBuffersOfBuffers/common.h">
+			<Option target="optixBuffersOfBuffers"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixBuffersOfBuffers/constantbg.cu">
+			<Option target="optixBuffersOfBuffers"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixBuffersOfBuffers/helpers.h">
+			<Option target="optixBuffersOfBuffers"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixBuffersOfBuffers/optixBuffersOfBuffers.cpp">
+			<Option target="optixBuffersOfBuffers"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixBuffersOfBuffers/optixBuffersOfBuffers.cu">
+			<Option target="optixBuffersOfBuffers"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixBuffersOfBuffers/parallelogram.cu">
+			<Option target="optixBuffersOfBuffers"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixBuffersOfBuffers/phong.cu">
+			<Option target="optixBuffersOfBuffers"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixBuffersOfBuffers/phong.h">
+			<Option target="optixBuffersOfBuffers"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixBuffersOfBuffers/pinhole_camera.cu">
+			<Option target="optixBuffersOfBuffers"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixBuffersOfBuffers/random.h">
+			<Option target="optixBuffersOfBuffers"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixBuffersOfBuffers/sphere_texcoord.cu">
+			<Option target="optixBuffersOfBuffers"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixCallablePrograms/constantbg.cu">
+			<Option target="optixCallablePrograms"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixCallablePrograms/helpers.h">
+			<Option target="optixCallablePrograms"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixCallablePrograms/optixCallablePrograms.cpp">
+			<Option target="optixCallablePrograms"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixCallablePrograms/optixCallablePrograms.cu">
+			<Option target="optixCallablePrograms"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixCallablePrograms/pinhole_camera.cu">
+			<Option target="optixCallablePrograms"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixCallablePrograms/sphere.cu">
+			<Option target="optixCallablePrograms"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixCompressedTexture/draw_texture.cu">
+			<Option target="optixCompressedTexture"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixCompressedTexture/optixCompressedTexture.cpp">
+			<Option target="optixCompressedTexture"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixConsole/checker.cu">
+			<Option target="optixConsole"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixConsole/common.h">
+			<Option target="optixConsole"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixConsole/constantbg.cu">
+			<Option target="optixConsole"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixConsole/helpers.h">
+			<Option target="optixConsole"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixConsole/optixConsole.cpp">
+			<Option target="optixConsole"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixConsole/parallelogram.cu">
+			<Option target="optixConsole"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixConsole/phong.cu">
+			<Option target="optixConsole"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixConsole/phong.h">
+			<Option target="optixConsole"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixConsole/pinhole_camera.cu">
+			<Option target="optixConsole"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixConsole/sphere.cu">
+			<Option target="optixConsole"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixDemandLoadBuffer/box.cu">
+			<Option target="optixDemandLoadBuffer"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixDemandLoadBuffer/common.h">
+			<Option target="optixDemandLoadBuffer"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixDemandLoadBuffer/constantbg.cu">
+			<Option target="optixDemandLoadBuffer"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixDemandLoadBuffer/demandLoad.cu">
+			<Option target="optixDemandLoadBuffer"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixDemandLoadBuffer/helpers.h">
+			<Option target="optixDemandLoadBuffer"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixDemandLoadBuffer/optixDemandLoadBuffer.cpp">
+			<Option target="optixDemandLoadBuffer"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixDemandLoadBuffer/phong.cu">
+			<Option target="optixDemandLoadBuffer"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixDemandLoadBuffer/pinhole_camera.cu">
+			<Option target="optixDemandLoadBuffer"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixDemandLoadBuffer/sphere_texcoord.cu">
+			<Option target="optixDemandLoadBuffer"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixDemandLoadTexture/box.cu">
+			<Option target="optixDemandLoadTexture"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixDemandLoadTexture/common.h">
+			<Option target="optixDemandLoadTexture"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixDemandLoadTexture/constantbg.cu">
+			<Option target="optixDemandLoadTexture"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixDemandLoadTexture/demandLoad.cu">
+			<Option target="optixDemandLoadTexture"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixDemandLoadTexture/helpers.h">
+			<Option target="optixDemandLoadTexture"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixDemandLoadTexture/optixDemandLoadTexture.cpp">
+			<Option target="optixDemandLoadTexture"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixDemandLoadTexture/phong.cu">
+			<Option target="optixDemandLoadTexture"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixDemandLoadTexture/pinhole_camera.cu">
+			<Option target="optixDemandLoadTexture"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixDemandLoadTexture/sphere_texcoord.cu">
+			<Option target="optixDemandLoadTexture"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixDenoiser/optixDenoiser.cpp">
+			<Option target="optixDenoiser"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixDenoiser/optixDenoiser.cu">
+			<Option target="optixDenoiser"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixDenoiser/optixDenoiser.h">
+			<Option target="optixDenoiser"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixDenoiser/parallelogram.cu">
+			<Option target="optixDenoiser"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixDenoiser/random.h">
+			<Option target="optixDenoiser"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixDeviceQuery/optixDeviceQuery.cpp">
+			<Option target="optixDeviceQuery"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixDynamicGeometry/common.h">
+			<Option target="optixDynamicGeometry"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixDynamicGeometry/constantbg.cu">
+			<Option target="optixDynamicGeometry"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixDynamicGeometry/helpers.h">
+			<Option target="optixDynamicGeometry"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixDynamicGeometry/optixDynamicGeometry.cpp">
+			<Option target="optixDynamicGeometry"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixDynamicGeometry/pinhole_camera.cu">
+			<Option target="optixDynamicGeometry"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixDynamicGeometry/random.h">
+			<Option target="optixDynamicGeometry"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixGeometryTriangles/accum_camera.cu">
+			<Option target="optixGeometryTriangles"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixGeometryTriangles/checker.cu">
+			<Option target="optixGeometryTriangles"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixGeometryTriangles/common.h">
+			<Option target="optixGeometryTriangles"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixGeometryTriangles/constantbg.cu">
+			<Option target="optixGeometryTriangles"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixGeometryTriangles/helpers.h">
+			<Option target="optixGeometryTriangles"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixGeometryTriangles/normal_shader.cu">
+			<Option target="optixGeometryTriangles"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixGeometryTriangles/optixGeometryTriangles.cpp">
+			<Option target="optixGeometryTriangles"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixGeometryTriangles/optixGeometryTriangles.cu">
+			<Option target="optixGeometryTriangles"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixGeometryTriangles/parallelogram.cu">
+			<Option target="optixGeometryTriangles"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixGeometryTriangles/phong.cu">
+			<Option target="optixGeometryTriangles"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixGeometryTriangles/phong.h">
+			<Option target="optixGeometryTriangles"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixGeometryTriangles/random.h">
+			<Option target="optixGeometryTriangles"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixGeometryTriangles/sphere.cu">
+			<Option target="optixGeometryTriangles"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixHello/draw_color.cu">
+			<Option target="optixHello"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixHello/optixHello.cpp">
+			<Option target="optixHello"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixInstancing/common.h">
+			<Option target="optixInstancing"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixInstancing/constantbg.cu">
+			<Option target="optixInstancing"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixInstancing/helpers.h">
+			<Option target="optixInstancing"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixInstancing/optixInstancing.cpp">
+			<Option target="optixInstancing"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixInstancing/parallelogram.cu">
+			<Option target="optixInstancing"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixInstancing/phong.cu">
+			<Option target="optixInstancing"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixInstancing/phong.h">
+			<Option target="optixInstancing"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixInstancing/pinhole_camera.cu">
+			<Option target="optixInstancing"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixInstancing/sphere.cu">
+			<Option target="optixInstancing"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixMDLDisplacement/common.h">
+			<Option target="optixMDLDisplacement"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixMDLDisplacement/constantbg.cu">
+			<Option target="optixMDLDisplacement"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixMDLDisplacement/geometry_programs.cu">
+			<Option target="optixMDLDisplacement"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixMDLDisplacement/helpers.h">
+			<Option target="optixMDLDisplacement"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixMDLDisplacement/materials.cu">
+			<Option target="optixMDLDisplacement"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixMDLDisplacement/mdl_textures.cu">
+			<Option target="optixMDLDisplacement"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixMDLDisplacement/optixMDLDisplacement.cpp">
+			<Option target="optixMDLDisplacement"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixMDLDisplacement/pinhole_camera.cu">
+			<Option target="optixMDLDisplacement"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixMDLExpressions/camera.cu">
+			<Option target="optixMDLExpressions"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixMDLExpressions/common.h">
+			<Option target="optixMDLExpressions"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixMDLExpressions/helpers.h">
+			<Option target="optixMDLExpressions"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixMDLExpressions/mdl_material.cu">
+			<Option target="optixMDLExpressions"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixMDLExpressions/mdl_textures.cu">
+			<Option target="optixMDLExpressions"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixMDLExpressions/optixMDLExpressions.cpp">
+			<Option target="optixMDLExpressions"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixMDLExpressions/parallelogram_tangent.cu">
+			<Option target="optixMDLExpressions"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixMDLExpressions/phong.h">
+			<Option target="optixMDLExpressions"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixMDLExpressions/sphere_texcoord_tangent.cu">
+			<Option target="optixMDLExpressions"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixMDLSphere/camera.cu">
+			<Option target="optixMDLSphere"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixMDLSphere/mdl_ibl.cu">
+			<Option target="optixMDLSphere"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixMDLSphere/mdl_textures.cu">
+			<Option target="optixMDLSphere"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixMDLSphere/optixMDLSphere.cpp">
+			<Option target="optixMDLSphere"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixMDLSphere/random.h">
+			<Option target="optixMDLSphere"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixMDLSphere/shared_structs.h">
+			<Option target="optixMDLSphere"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixMDLSphere/sphere_texcoord_tangent.cu">
+			<Option target="optixMDLSphere"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixMeshViewer/common.h">
+			<Option target="optixMeshViewer"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixMeshViewer/constantbg.cu">
+			<Option target="optixMeshViewer"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixMeshViewer/helpers.h">
+			<Option target="optixMeshViewer"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixMeshViewer/optixMeshViewer.cpp">
+			<Option target="optixMeshViewer"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixMeshViewer/pinhole_camera.cu">
+			<Option target="optixMeshViewer"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixMotionBlur/accum_camera_mblur.cu">
+			<Option target="optixMotionBlur"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixMotionBlur/common.h">
+			<Option target="optixMotionBlur"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixMotionBlur/constantbg.cu">
+			<Option target="optixMotionBlur"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixMotionBlur/helpers.h">
+			<Option target="optixMotionBlur"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixMotionBlur/intersection_refinement.h">
+			<Option target="optixMotionBlur"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixMotionBlur/normal_shader.cu">
+			<Option target="optixMotionBlur"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixMotionBlur/normal_shader_with_shadows.cu">
+			<Option target="optixMotionBlur"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixMotionBlur/optixMotionBlur.cpp">
+			<Option target="optixMotionBlur"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixMotionBlur/parallelogram.cu">
+			<Option target="optixMotionBlur"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixMotionBlur/pinhole_camera.cu">
+			<Option target="optixMotionBlur"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixMotionBlur/random.h">
+			<Option target="optixMotionBlur"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixMotionBlur/triangle_mesh_mblur.cu">
+			<Option target="optixMotionBlur"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixParticles/accum_camera.cu">
+			<Option target="optixParticles"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixParticles/accum_camera_mblur.cu">
+			<Option target="optixParticles"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixParticles/common.h">
+			<Option target="optixParticles"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixParticles/constantbg.cu">
+			<Option target="optixParticles"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixParticles/helpers.h">
+			<Option target="optixParticles"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixParticles/optixParticles.cpp">
+			<Option target="optixParticles"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixParticles/particles_geometry.cu">
+			<Option target="optixParticles"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixParticles/particles_material.cu">
+			<Option target="optixParticles"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixPathTracer/optixPathTracer.cpp">
+			<Option target="optixPathTracer"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixPathTracer/optixPathTracer.cu">
+			<Option target="optixPathTracer"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixPathTracer/optixPathTracer.h">
+			<Option target="optixPathTracer"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixPathTracer/parallelogram.cu">
+			<Option target="optixPathTracer"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixPathTracer/random.h">
+			<Option target="optixPathTracer"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixPathTracerTiled/optixPathTracerTiled.cpp">
+			<Option target="optixPathTracerTiled"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixPathTracerTiled/optixPathTracerTiled.cu">
+			<Option target="optixPathTracerTiled"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixPathTracerTiled/optixPathTracerTiled.h">
+			<Option target="optixPathTracerTiled"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixPathTracerTiled/parallelogram.cu">
+			<Option target="optixPathTracerTiled"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixPathTracerTiled/random.h">
+			<Option target="optixPathTracerTiled"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixPrimitiveIndexOffsets/common.h">
+			<Option target="optixPrimitiveIndexOffsets"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixPrimitiveIndexOffsets/constantbg.cu">
+			<Option target="optixPrimitiveIndexOffsets"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixPrimitiveIndexOffsets/helpers.h">
+			<Option target="optixPrimitiveIndexOffsets"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixPrimitiveIndexOffsets/intersection_refinement.h">
+			<Option target="optixPrimitiveIndexOffsets"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixPrimitiveIndexOffsets/optixPrimitiveIndexOffsets.cpp">
+			<Option target="optixPrimitiveIndexOffsets"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixPrimitiveIndexOffsets/phong.cu">
+			<Option target="optixPrimitiveIndexOffsets"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixPrimitiveIndexOffsets/phong.h">
+			<Option target="optixPrimitiveIndexOffsets"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixPrimitiveIndexOffsets/pinhole_camera.cu">
+			<Option target="optixPrimitiveIndexOffsets"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixPrimitiveIndexOffsets/triangle_mesh.cu">
+			<Option target="optixPrimitiveIndexOffsets"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixRaycasting/Common.h">
+			<Option target="optixRaycasting"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixRaycasting/OptiXRaycastingContext.cpp">
+			<Option target="optixRaycasting"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixRaycasting/OptiXRaycastingContext.cu">
+			<Option target="optixRaycasting"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixRaycasting/OptiXRaycastingContext.h">
+			<Option target="optixRaycasting"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixRaycasting/optixRaycasting.cpp">
+			<Option target="optixRaycasting"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixRaycasting/optixRaycastingKernels.cu">
+			<Option target="optixRaycasting"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixRaycasting/optixRaycastingKernels.h">
+			<Option target="optixRaycasting"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixSphere/constantbg.cu">
+			<Option target="optixSphere"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixSphere/helpers.h">
+			<Option target="optixSphere"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixSphere/normal_shader.cu">
+			<Option target="optixSphere"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixSphere/optixSphere.cpp">
+			<Option target="optixSphere"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixSphere/pinhole_camera.cu">
+			<Option target="optixSphere"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixSphere/sphere.cu">
+			<Option target="optixSphere"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixSpherePP/constantbg.cu">
+			<Option target="optixSpherePP"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixSpherePP/helpers.h">
+			<Option target="optixSpherePP"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixSpherePP/normal_shader.cu">
+			<Option target="optixSpherePP"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixSpherePP/optixSpherePP.cpp">
+			<Option target="optixSpherePP"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixSpherePP/pinhole_camera.cu">
+			<Option target="optixSpherePP"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixSpherePP/sphere.cu">
+			<Option target="optixSpherePP"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixTextureSampler/draw_texture.cu">
+			<Option target="optixTextureSampler"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixTextureSampler/optixTextureSampler.cpp">
+			<Option target="optixTextureSampler"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixTutorial/box.cu">
+			<Option target="optixTutorial"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixTutorial/common.h">
+			<Option target="optixTutorial"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixTutorial/optixTutorial.cpp">
+			<Option target="optixTutorial"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixTutorial/parallelogram.cu">
+			<Option target="optixTutorial"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixTutorial/random.h">
+			<Option target="optixTutorial"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixTutorial/tutorial.h">
+			<Option target="optixTutorial"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixTutorial/tutorial0.cu">
+			<Option target="optixTutorial"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixTutorial/tutorial1.cu">
+			<Option target="optixTutorial"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixTutorial/tutorial10.cu">
+			<Option target="optixTutorial"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixTutorial/tutorial11.cu">
+			<Option target="optixTutorial"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixTutorial/tutorial2.cu">
+			<Option target="optixTutorial"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixTutorial/tutorial3.cu">
+			<Option target="optixTutorial"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixTutorial/tutorial4.cu">
+			<Option target="optixTutorial"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixTutorial/tutorial5.cu">
+			<Option target="optixTutorial"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixTutorial/tutorial6.cu">
+			<Option target="optixTutorial"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixTutorial/tutorial7.cu">
+			<Option target="optixTutorial"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixTutorial/tutorial8.cu">
+			<Option target="optixTutorial"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixTutorial/tutorial9.cu">
+			<Option target="optixTutorial"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixWhitted/accum_camera.cu">
+			<Option target="optixWhitted"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixWhitted/checker.cu">
+			<Option target="optixWhitted"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixWhitted/common.h">
+			<Option target="optixWhitted"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixWhitted/constantbg.cu">
+			<Option target="optixWhitted"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixWhitted/glass.cu">
+			<Option target="optixWhitted"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixWhitted/helpers.h">
+			<Option target="optixWhitted"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixWhitted/optixWhitted.cpp">
+			<Option target="optixWhitted"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixWhitted/parallelogram.cu">
+			<Option target="optixWhitted"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixWhitted/phong.cu">
+			<Option target="optixWhitted"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixWhitted/phong.h">
+			<Option target="optixWhitted"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixWhitted/random.h">
+			<Option target="optixWhitted"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixWhitted/sphere.cu">
+			<Option target="optixWhitted"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixWhitted/sphere_shell.cu">
+			<Option target="optixWhitted"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/primeInstancing/primeInstancing.cpp">
+			<Option target="primeInstancing"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/primeMasking/primeMasking.cpp">
+			<Option target="primeMasking"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/primeMultiBuffering/primeMultiBuffering.cpp">
+			<Option target="primeMultiBuffering"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/primeMultiGpu/primeMultiGpu.cpp">
+			<Option target="primeMultiGpu"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/primeSimple/primeCommon.cpp">
+			<Option target="primeInstancing"/>
+			<Option target="primeMasking"/>
+			<Option target="primeMultiBuffering"/>
+			<Option target="primeMultiGpu"/>
+			<Option target="primeSimple"/>
+			<Option target="primeSimplePP"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/primeSimple/primeCommon.h">
+			<Option target="primeInstancing"/>
+			<Option target="primeMasking"/>
+			<Option target="primeMultiBuffering"/>
+			<Option target="primeMultiGpu"/>
+			<Option target="primeSimple"/>
+			<Option target="primeSimplePP"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/primeSimple/primeKernels.cu">
+			<Option target="primeInstancing"/>
+			<Option target="primeMasking"/>
+			<Option target="primeMultiBuffering"/>
+			<Option target="primeMultiGpu"/>
+			<Option target="primeSimple"/>
+			<Option target="primeSimplePP"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/primeSimple/primeSimple.cpp">
+			<Option target="primeSimple"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/primeSimplePP/primeSimplePP.cpp">
+			<Option target="primeSimplePP"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/sutil/Arcball.cpp">
+			<Option target="sutil_sdk"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/sutil/Arcball.h">
+			<Option target="sutil_sdk"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/sutil/GL/glew.h">
+			<Option target="sutil_sdk"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/sutil/GL/glxew.h">
+			<Option target="sutil_sdk"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/sutil/HDRLoader.cpp">
+			<Option target="sutil_sdk"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/sutil/HDRLoader.h">
+			<Option target="sutil_sdk"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/sutil/Mesh.cpp">
+			<Option target="sutil_sdk"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/sutil/Mesh.h">
+			<Option target="sutil_sdk"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/sutil/OptiXMesh.cpp">
+			<Option target="sutil_sdk"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/sutil/OptiXMesh.h">
+			<Option target="sutil_sdk"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/sutil/PPMLoader.cpp">
+			<Option target="sutil_sdk"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/sutil/PPMLoader.h">
+			<Option target="sutil_sdk"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/sutil/glew.c">
+			<Option target="sutil_sdk"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/sutil/rply-1.01/rply.c">
+			<Option target="sutil_sdk"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/sutil/rply-1.01/rply.h">
+			<Option target="sutil_sdk"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/sutil/sutil.cpp">
+			<Option target="sutil_sdk"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/sutil/sutil.h">
+			<Option target="sutil_sdk"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/sutil/sutilapi.h">
+			<Option target="sutil_sdk"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/sutil/tinyobjloader/tiny_obj_loader.cc">
+			<Option target="sutil_sdk"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/sutil/tinyobjloader/tiny_obj_loader.h">
+			<Option target="sutil_sdk"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/lib/ptx/opal_generated_tutils.cu.o">
+			<Option target="opal"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/lib/ptx/opal_s_generated_tutils.cu.o">
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/lib/ptx/opal_s_generated_tutils.cu.o.rule">
+			<Option target="opal_s"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/lib/ptx/optixRaycasting_generated_optixRaycastingKernels.cu.o">
+			<Option target="optixRaycasting"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/lib/ptx/primeInstancing_generated_primeKernels.cu.o">
+			<Option target="primeInstancing"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/lib/ptx/primeMasking_generated_primeKernels.cu.o">
+			<Option target="primeMasking"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/lib/ptx/primeMultiBuffering_generated_primeKernels.cu.o">
+			<Option target="primeMultiBuffering"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/lib/ptx/primeMultiGpu_generated_primeKernels.cu.o">
+			<Option target="primeMultiGpu"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/lib/ptx/primeSimplePP_generated_primeKernels.cu.o">
+			<Option target="primeSimplePP"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/lib/ptx/primeSimple_generated_primeKernels.cu.o">
+			<Option target="primeSimple"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/build-SDK-Desktop-Debug/sampleConfig.h">
+			<Option target="sutil_sdk"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/sampleConfig.h.in">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/CMake/CompilerInfo.cmake">
+			<Option virtualFolder="CMake Files\CMake\"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/CMake/ConfigCompilerFlags.cmake">
+			<Option virtualFolder="CMake Files\CMake\"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/CMake/FindCUDA.cmake">
+			<Option virtualFolder="CMake Files\CMake\"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/CMake/FindMDLWrapper.cmake">
+			<Option virtualFolder="CMake Files\CMake\"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/CMake/FindOptiX.cmake">
+			<Option virtualFolder="CMake Files\CMake\"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/CMake/FindSUtilGLUT.cmake">
+			<Option virtualFolder="CMake Files\CMake\"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/CMake/LinuxCPUInfo.cmake">
+			<Option virtualFolder="CMake Files\CMake\"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/CMake/Macros.cmake">
+			<Option virtualFolder="CMake Files\CMake\"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/CMake/sse_support.h.in">
+			<Option virtualFolder="CMake Files\CMake\"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/CMake/FindCUDA/run_nvcc.cmake">
+			<Option virtualFolder="CMake Files\CMake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/CMake/FindCUDA/select_compute_arch.cmake">
+			<Option virtualFolder="CMake Files\CMake\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixBuffersOfBuffers/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\optixBuffersOfBuffers\"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixCallablePrograms/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\optixCallablePrograms\"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixCompressedTexture/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\optixCompressedTexture\"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixConsole/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\optixConsole\"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixDemandLoadBuffer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\optixDemandLoadBuffer\"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixDemandLoadTexture/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\optixDemandLoadTexture\"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixDenoiser/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\optixDenoiser\"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixDeviceQuery/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\optixDeviceQuery\"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixDynamicGeometry/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\optixDynamicGeometry\"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixGeometryTriangles/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\optixGeometryTriangles\"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixHello/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\optixHello\"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixInstancing/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\optixInstancing\"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixMDLDisplacement/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\optixMDLDisplacement\"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixMDLExpressions/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\optixMDLExpressions\"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixMDLSphere/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\optixMDLSphere\"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixMeshViewer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\optixMeshViewer\"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixMotionBlur/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\optixMotionBlur\"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixParticles/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\optixParticles\"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixPathTracer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\optixPathTracer\"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixPathTracerTiled/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\optixPathTracerTiled\"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixPrimitiveIndexOffsets/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\optixPrimitiveIndexOffsets\"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixRaycasting/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\optixRaycasting\"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixSphere/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\optixSphere\"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixSpherePP/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\optixSpherePP\"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixTextureSampler/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\optixTextureSampler\"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixTutorial/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\optixTutorial\"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/optixWhitted/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\optixWhitted\"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/primeInstancing/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\primeInstancing\"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/primeMasking/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\primeMasking\"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/primeMultiBuffering/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\primeMultiBuffering\"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/primeMultiGpu/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\primeMultiGpu\"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/primeSimple/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\primeSimple\"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/primeSimplePP/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\primeSimplePP\"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\opal\"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/opal/Config.h.in">
+			<Option virtualFolder="CMake Files\opal\"/>
+		</Unit>
+		<Unit filename="/home/joewebb/OptiX2/SDK/sutil/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\sutil\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

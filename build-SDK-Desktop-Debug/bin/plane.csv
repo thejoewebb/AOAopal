@@ -1,0 +1,2 @@
+txId,rxId,E.real,E.im,power,position.x,position.y,position.z,raysHit,radius,distance,txpos.x,txpos.y,txpos.z,effectiveArea
+0,1,-0.04890204221,0.09911514074,1.999954264e-07,0,10,10,2,0.1000000015,10,0,10,0,1.637263995e-05
